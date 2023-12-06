@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../images/Messi.jpg);
+    background-size: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgb(0, 98, 179) , rgb(0, 172, 77));
+    font-size: 45px;
+    font-family: system-ui;
+    color: #c7c7c7;
+    padding-top: 15%;
+    padding-left: 10%;
+    clip-path: polygon(0 0, 100% 0, 65% 0%, 0 420%);
+}
